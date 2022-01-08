@@ -1,0 +1,162 @@
+:root {
+  --main-radius: 5px;
+  --main-padding: 5px;
+}
+.body{
+background:#cccccc;
+
+}
+.container {
+  display: grid;
+  height: 100vh;
+  border-radius:20px;
+  grid-template-columns: 1fr ;
+  grid-template-rows: 1.0fr 1.0fr 1.0fr 1.0fr 1.0fr 1.0fr 1.0fr 1.0fr ;
+  grid-template-areas:
+    "head_1"
+    "head_2"
+    "box1"
+    "box2"
+    "box3"
+    "box4"
+    "box5"
+    "box6";
+
+  grid-gap: 0.4rem;
+  font-weight: 800;
+  font-size: 12px;
+  background-color: #cccccc;
+  text-align: center;
+  padding:10px;
+  
+  margin: auto;
+}
+
+  #head_1 {
+    grid-area: head_1;
+    border-radius: 20px;
+    background: #f7f7f7;
+    padding: 20px;
+    box-shadow: 10px 5px 5px rgb(143, 143, 143);
+  }
+
+  #head_2 {
+    grid-area: head_2;
+    border-radius: 20px;
+    background: #f7f7f7;
+    padding: 20px;
+    box-shadow: 10px 5px 5px rgb(143, 143, 143);
+  }
+
+#box1 {
+  grid-area: box1;
+  border-radius: 20px;
+  background: #f7f7f7;
+  padding: 20px;
+  box-shadow: 10px 5px 5px rgb(143, 143, 143);
+
+}
+#imgzahl {
+  width: 100%;
+  object-fit: fill;
+}
+#imgrest{
+  width: 100%;
+  object-fit: fill;
+}
+#box2 {
+  grid-area: box2;
+  border-radius: 20px;
+  background: #f7f7f7;
+  padding: 20px;
+  box-shadow: 10px 5px 5px rgb(143, 143, 143);
+  
+}
+
+#box3 {
+  grid-area: box3;
+  border-radius: 20px;
+  background: #f7f7f7;
+  padding: 20px;
+  box-shadow: 10px 5px 5px rgb(143, 143, 143);
+
+}
+
+#box4 {
+  grid-area: box4;
+  border-radius: 15px;
+  background: #f7f7f7;
+  padding: 20px;
+  box-shadow: 10px 5px 5px rgb(143, 143, 143);
+  
+}
+
+#box5 {
+  grid-area: box5;
+  border-radius: 20px;
+  background: #f7f7f7;
+  padding: 20px;
+  box-shadow: 10px 5px 5px rgb(143, 143, 143);
+
+}
+
+#box6 {
+  grid-area: box6;
+  border-radius: 20px;
+  background: #f7f7f7;
+  padding: 20px;
+  box-shadow: 10px 5px 5px rgb(143, 143, 143);
+
+}
+#impressum{
+  text-align: center;
+  font-size: 10px;
+}
+#text{
+  font-size: 1.5em;
+  text-align: left;
+}
+#box1:hover{
+  background: #58bed8;
+}
+#box2:hover{
+  background: #58bed8;
+}
+#box3:hover{
+  background: #58bed8;
+}
+#box4:hover{
+  background: #58bed8;
+}
+#box5:hover{
+  background: #58bed8;
+}
+#box6:hover{
+  background: #58bed8;
+}
+
+@media only screen and (min-width:600px) {
+
+    .container {
+      display: grid;
+      height: 100vh;
+      
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 0.6fr 1.2fr 1.2fr;
+      grid-template-areas:
+        "head_1 head_1 head_2"
+        "box1 box2 box3"
+        "box4 box5 box6";
+      grid-gap: 0.4rem;
+      font-weight: 800;
+      font-size: 12px;
+      background-color: #cccccc;
+      text-align: center;
+      padding:10px;
+      max-width:900px;
+      margin: auto;
+    
+    
+    }
+  
+  }

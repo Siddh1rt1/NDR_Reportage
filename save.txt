@@ -1,0 +1,8 @@
+<img src="static/1x/InfoArtboard 10.png">
+<img src="static/1x/writing_reportArtboard 10.png">
+<img src="static/1x/BildArtboard 10.png">
+<img src="static/1x/interview_homeArtboard 10.png">
+<img src="static/1x/PflegesoundArtboard 10.png">
+<img src="static/1x/interview_autoArtboard 10.png">
+
+
